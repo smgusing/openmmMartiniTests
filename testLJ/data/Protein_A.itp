@@ -1,0 +1,17 @@
+; MARTINI (martini22) Coarse Grained topology file for "Protein_A"
+; Created by py version 2.4 
+; Using the following options:  -f xq.pdb -ff martini22 -ss CCCCC -o xq.top
+; Sequence:
+; WLQLL
+; Secondary Structure:
+; CCCCC
+
+[ moleculetype ]
+; Name         Exclusions
+Protein_A         1
+
+[ atoms ]
+    1    P5     1   GLN    BB     1  0.0000 ; C
+    2    P5     2   LEU    BB     2  0.0000 ; C
+
+

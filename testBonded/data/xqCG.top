@@ -1,0 +1,19 @@
+[ defaults ]
+1 1
+
+[ atomtypes ]
+x5 72 0.0 A 0.0 0.0
+
+[ nonbond_params ]
+x5 x5 1 0.000 0.000
+
+#include "Protein_A.itp"
+
+[ system ]
+; name
+Martini system from xq.pdb
+    
+[ molecules ]
+; name        number
+Protein_A 	 1
+
